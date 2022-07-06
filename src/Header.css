@@ -1,0 +1,27 @@
+.top{
+    display: flex;
+    margin: 50px;
+    justify-content: space-evenly;
+}
+.profile{
+    display: flex;
+}
+img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right: 100px;
+}
+.bold{
+    font-weight: bold;
+
+}
+.line{
+    width: 33px;
+    height: 3px;
+    background-color: black;
+    margin: 3px;
+}
+.top p{
+    font-size: 20px;
+}
