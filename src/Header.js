@@ -3,18 +3,18 @@ import './Header.css';
 
 const Header = () => {
   let time = new Date().getHours(); 
-
+  let greeting = '';
 
    if(time>=5 && time<12){
-    var greeting = "Morning !";
+     greeting = "Morning !";
    }
    else if (time>=12 && time<15) {
-    var greeting = "Afternoon ! ";
+     greeting = "Afternoon ! ";
    } else if(time>=15 && time < 18){
-    var greeting = "Evening !";
+     greeting = "Evening !";
    }
    else{
-   var greeting = "Night !";
+    greeting = "Night !";
    }
 
   return (

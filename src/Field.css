@@ -12,7 +12,12 @@ input:active{
     border-style: hidden;
 }
 .fixedwidth{
-    width: 500px;
+    width: 60vh;
+}
+.left{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 .container{
     display: flex;

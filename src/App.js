@@ -4,6 +4,7 @@ import Assignment from './Assignment';
 import Field from './Field';
 import Header from './Header';
 import './Field.css';
+import Performance from './Performance';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Field/>
       <Assignment/>
       <Activities/>
+      <Performance/>
     </div>
   );
 }
