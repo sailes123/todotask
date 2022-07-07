@@ -6,14 +6,19 @@ input{
     padding: 10px;
     margin-right: 5px;
     border-style: hidden;
+    width: 400px;
+}
+input:active{
+    border-style: hidden;
+}
+.fixedwidth{
+    width: 500px;
 }
 .container{
     display: flex;
     align-items: center;
-
     border: 2px solid black;
     margin-right: 10px;
-
 }
 .field{
     margin-bottom: 8px;
