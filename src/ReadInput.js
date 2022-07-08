@@ -9,16 +9,22 @@ const ReadInput = (props) => {
   return (
     <div>
         <div className='field'>
-        <div className="container">
-        <p className='fixedwidth'>{props.Avalue}</p>
+        <div className="container space">
+        <p>{props.Avalue}</p>
+       
         <ExpandCircleDownOutlinedIcon></ExpandCircleDownOutlinedIcon>
         </div>
+         <p className='small-gap'></p>
+        <div className='same-size make-flex'>
         <button type='text' >
         <CheckCircleOutlinedIcon></CheckCircleOutlinedIcon>
         </button>
         <button type='text'>
         <DeleteOutlineOutlinedIcon></DeleteOutlineOutlinedIcon>
-        </button>
+        </button> 
+        </div>
+
+
         
         
     </div>

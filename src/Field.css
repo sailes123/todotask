@@ -2,17 +2,26 @@
     background-color: white;
     padding: 10px;
 }
+.nospace{
+    padding: 0;
+    margin: 0;
+}
+
 input{
+    height: 20px;
     padding: 10px;
     margin-right: 5px;
     border-style: hidden;
-    width: 400px;
+    width: 100%;
 }
 input:active{
     border-style: hidden;
 }
-.fixedwidth{
-    width: 60vh;
+
+.space{
+    display: flex;
+    justify-content: space-between;
+
 }
 .left{
     margin-left: 10px;
@@ -23,10 +32,41 @@ input:active{
     display: flex;
     align-items: center;
     border: 2px solid black;
-    margin-right: 10px;
+    width: 100%;
+    height: 40px;
 }
 .field{
+    position: relative;
     margin-bottom: 8px;
     display: flex;
     justify-content: center;
+}
+.small-gap{
+    margin-right: 0.5vw;
+}
+.big-gap{
+    margin-right: 3vw;
+}
+.remove-button{
+    display: none;
+}
+.same-size{
+    width: 70px;
+}
+.make-flex{
+    display: flex;
+}
+.hello{
+    width: 19px;
+    height: 20px;
+    border-radius: 60%;
+    border: 2px solid black;
+}
+.opt{
+    padding: 15px;
+    border-radius: 2px solid black;
+    font-size: 20px;
+}
+.calendar{
+    width: 100px;
 }

@@ -1,0 +1,25 @@
+.canvasjs-chart-toolbar{
+    display: none;
+}
+
+.partition{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.leftPart{
+    width: 50%;
+}
+.squarebox{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+
+

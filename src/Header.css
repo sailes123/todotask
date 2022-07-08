@@ -1,10 +1,16 @@
 .top{
+    margin-top: 20px;
     display: flex;
-    margin: 50px;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 .profile{
     display: flex;
+    
+}
+
+.burger{
+    padding-left: 7rem;
 }
 img{
     border-radius: 50%;
@@ -23,5 +29,5 @@ img{
     margin: 3px;
 }
 .top p{
-    font-size: 20px;
+    font-size: 27px;
 }
